@@ -16,14 +16,20 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mandakh12.example1",
+      "buildNumber": "1.0.0"
     },
+    
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mandakh12.example1",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
